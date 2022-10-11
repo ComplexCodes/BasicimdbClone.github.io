@@ -13,3 +13,6 @@ iii. Result section: result section contains all details of the movie which has 
 
 Front end Sample of the website:
 ![Screenshot (150)](https://user-images.githubusercontent.com/114765524/195031525-22c8dd8e-b6ec-4b0d-8320-e7c6d0c75c81.png)
+
+Sample after searching any movie:
+![Screenshot (153)](https://user-images.githubusercontent.com/114765524/195042027-771f8f22-4f8f-466f-b46f-bfff810d2585.png)
