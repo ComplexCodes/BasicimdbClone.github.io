@@ -1,6 +1,6 @@
 
-//Title: http://www.omdbapi.com/?s=avengers&page=1&apikey=46652d12
-//Details:  http://www.omdbapi.com/?i=tt3896198&apikey=46652d12
+//Title: http://www.omdbapi.com/?s=avengers&page=1&apikey=fc1fef96
+//Details:  http://www.omdbapi.com/?i=tt3896198&apikey=fc1fef96
 
 const movieSearchBox = document.getElementById('movie-search-box');
 const searchList = document.getElementById('search-list');
@@ -8,7 +8,7 @@ const resultGrid = document.getElementById('result-grid');
 
 // loading movies from API
 async function loadMovies(searchContent){
-    const URL = `https://omdbapi.com/?s=${searchContent}&page=1&apikey=46652d12`;
+    const URL = `https://omdbapi.com/?s=${searchContent}&page=1&apikey=fc1fef96`;
     const res = await fetch(`${URL}`);
     const data = await res.json();
     if(data.Response == "True") displayMovieList(data.Search);
